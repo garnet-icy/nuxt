@@ -1,9 +1,14 @@
 <template>
   <div>
-    <Nuxt />
+    <h1>哪哪都有</h1>
+    <header></header>
+    <nav></nav>
+    <section>
+      <Nuxt />
+    </section>
+    <footer></footer>
   </div>
 </template>
-
 <style>
 html {
   font-family:
