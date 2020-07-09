@@ -1,12 +1,7 @@
 <template>
   <div>
     <h1>哪哪都有</h1>
-    <header></header>
-    <nav></nav>
-    <section>
-      <Nuxt />
-    </section>
-    <footer></footer>
+    <Nuxt />
   </div>
 </template>
 <style>
