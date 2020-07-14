@@ -7,9 +7,6 @@
 export default {
   asyncData(){
     return {
-      error:{
-        statusCode:401,
-      }
     }
   },
   // layout:'error',

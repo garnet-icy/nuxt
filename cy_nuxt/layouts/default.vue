@@ -1,7 +1,16 @@
 <template>
   <div>
-    <h1>哪哪都有</h1>
+    <header>头部菜单</header>
+    <nav>
+      <nuxt-link to="/user/1">菜单1</nuxt-link>
+      <nuxt-link to="/user/2">菜单2</nuxt-link>
+      <nuxt-link to="/user/3">菜单3</nuxt-link>
+      <nuxt-link to="/user/4">菜单4</nuxt-link>
+    </nav>
     <Nuxt />
+    <footer>
+      <h1>其他信息</h1>
+    </footer>
   </div>
 </template>
 <style>
